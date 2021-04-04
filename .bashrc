@@ -32,7 +32,7 @@ alias brc='vim ~/.bashrc'
 alias cls='clear'
 
 # Change ownership from root to user
-alias cho='sudo chown -R $USER'
+alias cho='doas chown -R $USER'
 
 # Clone a repo
 alias gcl='git clone'
